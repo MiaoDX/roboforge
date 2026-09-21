@@ -1,0 +1,22 @@
+# Local Python/tooling state
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+/local/
+/secrets/
+
+# Generated artifacts and externally managed data
+/outputs/
+/runs/
+/datasets/
+/checkpoints/
+/artifacts/
